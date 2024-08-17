@@ -18,7 +18,7 @@
 //     role: [2, 'author']
 // };
 
-enum Role { ADMIN, READ_ONLY, AUTHOR };
+enum Role { ADMIN = 5, READ_ONLY, AUTHOR };
 
 const person = {
     name: 'Maximilian',
